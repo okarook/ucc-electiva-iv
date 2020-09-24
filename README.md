@@ -7,7 +7,7 @@ En cada proyecto existe una descripción y los pasos para llevarlos a cabo.
 ### Lista de proyectos:
 1. [Semáforo Simple](./01-semaforo-simple/)
 2. [Semáforo Doble](./02-semaforo-doble/)
-3. [Semáforo Cruzado](./01-semaforo-cruzado/)
+3. [Semáforo Cruzado](./03-semaforo-cruzado/)
 
 
 ## Licencia
