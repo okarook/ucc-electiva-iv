@@ -1,4 +1,4 @@
-# 01 - Semáforo doble
+# 02 - Semáforo doble
 
 Construir un semáforo con 10 led, que se prenda y apaguen en orden inverso en un determinado tiempo.
 
