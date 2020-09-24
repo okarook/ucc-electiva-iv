@@ -11,7 +11,7 @@ Construir un semáforo con 3 led (Rojo, Amarillo, Verde) y que se prenda y apagu
 
 # Desarrollar
 
-Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://www.tinkercad.com/), por tanto debe primero tener una cuenta en la plataforma.
+Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://www.tinkercad.com/?target=_blank), por tanto debe primero tener una cuenta en la plataforma.
 
 ### Componentes a utilizar:
 - 1 Placa arduino UNO
