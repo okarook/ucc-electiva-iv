@@ -35,6 +35,7 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
 
 5. Por ultimo dar clic en el botón iniciar ejecución
 
+6. Puede ver el proyecto [aquí](https://www.tinkercad.com/things/cMJAdumH34M)
 
 ## Licencia
 [MIT License](./../LICENSE)
