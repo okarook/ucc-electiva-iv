@@ -1,6 +1,6 @@
-# 02 - Semáforo doble
+# 02 - Secuencia de leds
 
-Construir un semáforo con 10 led, que se prenda y apaguen en orden inverso en un determinado tiempo.
+Construir una secuencia de 10 LEDs, dividirlos en dos filas, para que se prenda y apaguen en orden inverso en un determinado tiempo.
 
 ### Ejemplo:
 ![Ejemplo](./assets/operation.gif)
@@ -26,7 +26,7 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
   > git clone https://github.com/okarook/ucc-electiva-iv.git
 
 2. Ir al directorio del proyecto:
-  > cd ucc-electiva-iv/02-semaforo-doble/
+  > cd ucc-electiva-iv/02-secuencia-leds/
 
 3. Crear el siguiente montaje en la plataforma [tinkercad.com](https://www.tinkercad.com/).
 ![Circuito](./assets/circuitAssembly.png)
