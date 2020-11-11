@@ -1,8 +1,6 @@
-# 08 - Pushbutton ábaco suma
+# 10 Fuente de energia con sensor
 
-El circuito contiene 9 LEDs que representan 2 lineas de ábaco de 4 LEDs cada una y 1 LED de resultado el cual debe informar del resultado de la suma mediante la intermitencia, es decir cada que se oprima el pulsador de resultado el led debe emitir una cantidad de parpadeos equivalentes al resultado.
-
-Para mover las dos lineas del ábaco, debe haber 2 pulsadores por linea para sumar y restar, es decir ir encendiendo LEDs para la suma y apagando LEDs para el pulso de resta.
+Simular con una fuente de energía un sensor, donde enciendan y apaguen los LEDs de acuerdo al voltaje indicado en la fuente.
 
 ### Ejemplo:
 ![Ejemplo](./assets/operation.gif)
@@ -19,9 +17,9 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
 ### Componentes a utilizar:
 - 1 Placa arduino UNO
 - 1 Protoboard
-- 9 LEDs
-- 5 Pushbuttons
-- 9 resistencias de 120 Ω
+- 10 LEDs
+- 1 fuente de energía
+- 10 resistencias de 120 Ω
 - Jumpers (Cables)
 
 ### Pasos:
@@ -29,7 +27,7 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
   > git clone https://github.com/okarook/ucc-electiva-iv.git
 
 2. Ir al directorio del proyecto:
-  > cd ucc-electiva-iv/08-Pushbutton-abaco-sum/
+  > cd ucc-electiva-iv/10-fuente-energia-sensor/
 
 3. Crear el siguiente montaje en la plataforma [tinkercad.com](https://www.tinkercad.com/).
 ![Circuito](./assets/circuitAssembly.png)
@@ -38,7 +36,7 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
 
 5. Por último dar clic en el botón iniciar ejecución
 
-6. Puede ver el proyecto [aquí](https://www.tinkercad.com/things/52DPUEdNpOE)
+6. Puede ver el proyecto [aquí](https://www.tinkercad.com/things/aUlzfIJ1gLD)
 
 ## Licencia
 [MIT License](./../LICENSE)

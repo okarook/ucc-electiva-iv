@@ -37,7 +37,7 @@ Para realizar el proyecto se hace uso de la plataforma [tinkercad.com](https://w
 
 4. Abrir el archivo `src/main.ino` en su editor preferido y copiar el código en la plataforma [tinkercad.com](https://www.tinkercad.com/)
 
-5. Por ultimo dar clic en el botón iniciar ejecución
+5. Por último dar clic en el botón iniciar ejecución
 
 6. Puede ver el proyecto [aquí](https://www.tinkercad.com/things/h7mXmbDPp0L)
 
