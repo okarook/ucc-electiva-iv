@@ -1,6 +1,6 @@
-# 10 Fuente de energía como sensor
+# 11 Fuente de energía - Controlar velocidad LEDs
 
-Simular con una fuente de energía un sensor, donde enciendan y apaguen los LEDs de acuerdo al voltaje indicado en la fuente.
+Hacer uso de una fuente de poder y hacer que un solo led se  encienda y se mueva encendido por cada uno de los LEDs que se encuentran apagados (el efecto es que la luz va pasando de un led a otro, por donde ya pasó se apague, ejemplo de derecha a izquiera y cuando llegue a la izquierda vuelva a iniciar en el sentido de derecha a izquierda), de acuerdo a la velocidad que se le configure en la fuente de poder, la cual consiste en: menor voltaje menor velocidad y a mayor voltaje mayor velocidad.
 
 ### Ejemplo:
 ![Ejemplo](./assets/operation.gif)
