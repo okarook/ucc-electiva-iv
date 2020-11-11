@@ -14,6 +14,7 @@ En cada proyecto existe una descripción y los pasos para llevarlos a cabo.
 7. [Pushbutton plus/less](./07-Pushbutton-plus-less/)
 8. [Pushbutton ábaco suma](./08-Pushbutton-abaco-sum/)
 9. [Compuerta NAND](./09-compuerta-NAND/)
+10. [Fuente de energia con sensor](./10-fuente-energia-sensor/)
 12. [Encendido de Leds, calculo vectorial de 0% a 100%](./12-encendido-leds-calculo-v/)
 
 ## Licencia
