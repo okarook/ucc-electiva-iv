@@ -1,28 +1,30 @@
-const int pinLeds[7] = {6,7,8,9,10,11,12};
-const int len = 7;
-int data, percentage;
+// PIN:[ON|OFF]
+// ALL:[ON|OFF]
 
-void setup()
-{
+int pinLeds[10] = {13, 12, 11, 10, 9, 7, 6, 5, 4, 3};
+String pin, action;
+
+void setup() {
   Serial.begin(9600);
-  for(int i = 0; i < len; i++){
+  for (int i = 0; i < 10; i++) {
     pinMode(pinLeds[i], OUTPUT);
   }
 }
 
-void loop()
-{
-  data = analogRead(A0);
-  percentage = map(data, 0, 1023, 0, 7);
+void loop() {
+  if (Serial.available()) {
+    pin = Serial.readStringUntil(':');
+    action = Serial.readStringUntil(':');
+    if (pin == "ALL") {
+      for (int i = 0; i < 10; i++) {
+        digitalWrite(pinLeds[i], action == "ON");
+      }
+    } else {
+      digitalWrite(pin.toInt(), action == "ON");
+    }
 
-  for (int i = 0; i < len; i++) {
-    digitalWrite(pinLeds[i], i < percentage);
+    Serial.print("DATA. PIN: " + pin + ", ACTION: " + action);
+    Serial.println();
   }
-
-  Serial.print("Lectura Potenciometro. DATA: ");
-  Serial.print(data);
-  Serial.print(" %: ");
-  Serial.print(percentage);
-  Serial.println();
   delay(1000);
 }
